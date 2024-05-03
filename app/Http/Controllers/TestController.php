@@ -12,4 +12,8 @@ class TestController extends Controller
     public function index(){
        return Inertia::render('Testtest');
     }
+
+        public function optionindex(){
+       return Inertia::render('Option1');
+    }
 }
